@@ -1,0 +1,15 @@
+/*normalization*/
+html,
+body, a {
+  height:$heightx;
+  width:$widthx;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $bg_col;
+  font-family: 'Orbitron', sans-serif;
+  text-decoration:none !important;
+}
+a{
+background-color: transparent;
+}

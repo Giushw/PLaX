@@ -1,0 +1,20 @@
+/*Canvas Class*/
+#particle-canvas {
+width: $heightx;
+height: $widthx;
+}
+
+/*Hidden Class*/
+.hid{
+  display: none;
+}
+
+/*Misc Class*/
+.point{
+  cursor:pointer;
+}
+
+/*Overflow Class*/
+.overF{
+  overflow: visible;
+}

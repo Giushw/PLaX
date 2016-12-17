@@ -1,0 +1,178 @@
+/*Z-Index Class*/
+
+/*lv 3*/
+/*mixin*/
+@mixin Lv3 ($indx_value) {
+  z-index: $indx_value;
+  position: absolute;
+}
+@mixin Tx ($tx_value) {
+  top: $tx_value;
+}
+@mixin Bx ($bx_value) {
+  bottom: $bx_value;
+}
+@mixin Dx ($dx_value) {
+  right: $dx_value;
+}
+@mixin Sx ($sx_value) {
+  left: $sx_value;
+}
+@mixin Trax ($trax_value) {
+  transition: $trax_value;
+}
+
+/*classes*/
+.zi3{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3);
+  @include Sx($left_pos_3);
+}
+.zi3a{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_null);
+  @include Sx($left_pos_3a);
+}
+.zi3aalfa{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3aalfa);
+  @include Sx($left_pos_3aalfa);
+  @include Trax($tranx_alfa);
+}
+.zi3abeta{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3abeta);
+  @include Sx($left_pos_3abeta);
+  @include Trax($tranx_beta);
+}
+.zi3agamma{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3agamma);
+  @include Sx($left_pos_3agamma);
+  @include Trax($tranx_gamma);
+}
+.zi3b{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3b);
+  @include Sx($left_pos_3b);
+}
+.zi3c{
+  @include Lv3($indx_third);
+  @include Bx($bottom_pos_3c);
+  @include Sx($left_pos_3c);
+}
+.zi3dalfa{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dalfa);
+  @include Dx($right_pos_3dalfa);
+}
+.zi3dalfacont{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dalfacont);
+  @include Dx($right_pos_3dalfacont);
+}
+.zi3dalfalav{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dalfalav);
+  @include Dx($right_pos_3dalfalav);
+}
+.zi3dalfaback{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dalfaback);
+  @include Dx($right_pos_3dalfaback);
+}
+.zi3dalfabacklog{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dalfabacklog);
+  @include Sx($left_pos_null);
+}
+.zi3dalfacontlog{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dalfacontlog);
+  @include Sx($left_pos_null);
+}
+.zi3dalfalavlog{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_null);
+  @include Sx($left_pos_null);
+}
+.zi3dalfaplalog{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dalfaplalog);
+  @include Sx($left_pos_null);
+}
+.zi3dalfalav{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dalfalav);
+  @include Dx($right_pos_3dalfalav);
+}
+.zi3dbeta{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dbeta);
+  @include Dx($right_pos_3dbeta);
+}
+.zi3dbetacont{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dbetacont);
+  @include Sx($left_pos_3dbetacont);
+}
+.zi3dgamma{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dgamma);
+  @include Dx($right_pos_3dgamma);
+}
+.zi3dgammacont{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dgammacont);
+  @include Sx($left_pos_3dgammacont);
+}
+.zi3dgammaconta{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dgammaconta);
+  @include Sx($left_pos_3dgammaconta);
+}
+.zi3ddelta{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3ddelta);
+  @include Dx($right_pos_3ddelta);
+}
+.zi3ddeltacont{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3ddeltacont);
+  @include Sx($left_pos_3ddeltacont);
+}
+.zi3ddeltaconta{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3ddeltaconta);
+  @include Sx($left_pos_3ddeltaconta);
+}
+.zi3dlambda{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dlambda);
+  @include Dx($right_pos_3dlambda);
+}
+.zi3dlambdacont{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dlambdacont);
+  @include Sx($left_pos_3dlambdacont);
+}
+.zi3dlambdaconta{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dlambdaconta);
+  @include Sx($left_pos_3dlambdaconta);
+}
+.zi3dsigmacont{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dsigmacont);
+  @include Dx($right_pos_3dsigmacont);
+}
+.zi3dsigmaconta{
+  @include Lv3($indx_third);
+  @include Tx($top_pos_3dsigmaconta);
+  @include Dx($right_pos_3dsigmaconta);
+}
+.zi3dthetacont{
+  @include Lv3($indx_third);
+  @include Bx($bottom_pos_3dthetacont);
+  @include Dx($right_pos_3dthetacont);
+}

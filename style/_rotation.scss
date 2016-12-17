@@ -1,0 +1,21 @@
+/*Rotate Class*/
+
+/*mixin*/
+@mixin Rot ($rot_value){
+	transform: rotate($rot_value);
+}
+
+/*classes*/
+.rotMenu1{
+	@include Rot($rot_lav);
+}
+.rotMenu2{
+  @include Rot($rot_back);
+}
+.rotMenu3{
+	@include Rot($rot_cont);
+}
+.rotbtn{
+	transition: 0.5s;
+	@include Rot($rot_btn);
+}

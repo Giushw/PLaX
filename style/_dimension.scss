@@ -1,0 +1,70 @@
+/*Dimension Class*/
+
+/*mixin*/
+@mixin Dim ($width_view) {
+	width: $width_view;
+}
+@mixin Dim2 ($height_view) {
+	height: $height_view;
+}
+@mixin Dim3 ($width_view, $height_view) {
+  width: $width_view;
+  height: $height_view;
+}
+
+/*classes*/
+.objDim0{
+  @include Dim($width_view_vw_0);
+}
+.objDim0a{
+  @include Dim($width_view_vw_0a);
+}
+.objDim0b{
+  @include Dim($width_view_vw_0b);
+}
+.objDim0c{
+  @include Dim($width_view_vw_0c);
+}
+.objDim1{
+  @include Dim($width_view_vw_1);
+}
+.objDim2{
+  @include Dim($width_view_vw_2);
+}
+.objDim2log{
+  @include Dim($width_view_vw_2log);
+}
+.objDim2logBack{
+  @include Dim($width_view_vw_2logBack);
+}
+.objDim2logLav{
+  @include Dim($width_view_vw_2logLav);
+}
+.objDim2logPla{
+  @include Dim($width_view_vw_2logPla);
+}
+.objDim3{
+  @include Dim($width_view_vw_3);
+}
+.objDim4{
+  @include Dim($width_view_vw_4);
+}
+.objDim5{
+  @include Dim($width_view_vw_5);
+}
+.objDim6{
+  @include Dim3($width_view_vw_0, $width_view_vw_6);
+}
+.objDim7{
+  @include Dim2($width_view_vw_7);
+}
+.objDim2pl1{
+	@include Dim($width_view_vw_pl1);
+}
+.objDim2pl2{
+	@include Dim($width_view_vw_pl2);
+}
+/*BackGround Dimensio*/
+.bgDim{
+  background-size: 100vw;
+}

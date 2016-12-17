@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <!--Head Declaration-->
+	<% include partials/layout/head.ejs %>
+</head>
+    <body class="">
+	    <% include partials/layout/canvas_particle.ejs %>
+
+        <% include partials/layout/load_layout/load_obj_gre.ejs %>
+    	<% include partials/layout/load_layout/load_obj_gry.ejs %>
+
+        <% include partials/content/logo/logo_load.ejs %>
+<style>
+#container {
+  margin: 20px;
+  width: 400px;
+  height: 8px;
+}
+</style>
+				<div id="container" class="zi3"></div>
+
+
+
+ 	    <% include partials/layout/scripts_particle.ejs %>
+ 	    <% include partials/layout/scripts.ejs %>
+      <script>
+      // progressbar.js@1.0.0 version is used
+// Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
+
+var bar = new ProgressBar.Line(container, {
+  strokeWidth: 4,
+  easing: 'easeInOut',
+  duration: 15000,
+  color: '#c4c4c4',
+  trailColor: '#eeeeeee',
+  trailWidth: 1,
+  svgStyle: {width: '100%', height: '100%'},
+  from: {color: '#c4c4c4'},
+  to: {color: '#27AE60'},
+  step: (state, bar) => {
+    bar.path.setAttribute('stroke', state.color);
+  }
+});
+
+bar.animate(1.0);  // Number from 0.0 to 1.0
+      </script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+/*Font Class*/
+
+.menutitle{
+  font-size: $font_menu_s;
+  color: $font_menu;
+}
+.menutitleA{
+  font-size: $font_menu_s;
+  color: $font_menu;
+}
+.menutitle:hover {
+  color: $font_hover;
+}
+.selHov:hover{
+  filter:drop-shadow(8px 8px 10px $font_hover);
+  filter:brightness($bright);
+}
+.btnPlaxFont1{
+  font-size: $font_btn_plax_s;
+  color: $font_gre;
+}
+.btnPlaxFont2{
+  font-size: $font_btn_plax_s;
+  color: $font_drkgry;
+}
+.btnPlaxFont2a{
+  font-size: $font_btn_plax_sa;
+  color: $font_drkgry;
+}
+.btnPlaxFont3{
+  font-size: $font_btn_plax_sa;
+  color: $font_whc4;
+}
+.homeDesTxt{
+  font-size: $font_home_des;
+  color: $font_drkgry;
+}
+.pageTitle{
+  font-size: $font_page_title;
+  color: $font_whc4;
+}
+.pageTitleBack{
+  font-size: $font_page_title_back;
+  color: $font_whc4;
+}
+.contText{
+  font-size: $font_cont_txsl;
+  color: $font_whee;
+}
+.contSect {
+  font-size: $font_cont_txsl;
+  color: $font_gre;
+}
+.contCon {
+  font-size: $font_cont_con;
+  color: $font_whee;
+}

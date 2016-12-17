@@ -1,0 +1,148 @@
+/*Z-Index Class*/
+
+/*lv 2*/
+/*mixin*/
+@mixin Lv2 ($indx_value) {
+  z-index: $indx_value;
+  position: absolute;
+}
+@mixin Tx ($tx_value) {
+  top: $tx_value;
+}
+@mixin Bx ($bx_value) {
+  bottom: $bx_value;
+}
+@mixin Dx ($dx_value) {
+  right: $dx_value;
+}
+@mixin Sx ($sx_value) {
+  left: $sx_value;
+}
+@mixin Trax ($trax_value) {
+  transition: $trax_value;
+}
+
+/*classes*/
+.zi2{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_null);
+  @include Dx($right_pos_null);
+}
+.zi2a{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_null);
+  @include Sx($left_pos_null);
+}
+.zi2b{
+  @include Lv2($indx_second);
+  @include Bx($bottom_pos_2b);
+  @include Sx($left_pos_2b);
+}
+.zi2lav{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_null);
+  @include Dx($right_pos_2lav);
+}
+.zi2lavalfa{
+  @include Lv2($indx_second);
+  @include Bx($bottom_pos_2lavalfa);
+  @include Sx($left_pos_null);
+}
+.zi2lavbeta{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_2lavbeta);
+  @include Sx($left_pos_2lavbeta);
+}
+.zi2lavgamma{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_2lavgamma);
+  @include Dx($right_pos_2lavgamma);
+}
+.zi2lavdelta{
+  @include Lv2($indx_second);
+  @include Bx($bottom_pos_2lavdelta);
+  @include Dx($right_pos_2lavdelta);
+}
+.zi2calfa{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_2calfa);
+  @include Sx($left_pos_2calfa);
+  @include Trax($tranx_alfa);
+}
+.zi2back{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_null);
+  @include Dx($right_pos_null);
+}
+.zi2backalfa{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_null);
+  @include Sx($left_pos_null);
+}
+.zi2backbeta {
+  @include Lv2($indx_second);
+  @include Tx($top_pos_2backbeta);
+  @include Sx($left_pos_2backbeta);
+}
+.zi2backgamma {
+  @include Lv2($indx_second);
+  @include Bx($bottom_pos_2backgamma);
+  @include Sx($left_pos_2backgamma);
+}
+.zi2lo{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_2lo);
+  @include Sx($left_pos_2lo);
+}
+.zi2loalfa{
+  @include Lv2($indx_second);
+  @include Bx($bottom_pos_2loalfa);
+  @include Dx($right_pos_2loalfa);
+}
+.zi2pl{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_null);
+  @include Sx($left_pos_null);
+}
+.zi2pl1{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_2pl1);
+  @include Sx($left_pos_2pl1);
+}
+.zi2pl2{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_2pl2);
+  @include Sx($left_pos_2pl2);
+}
+.zi2plalfa{
+  @include Lv2($indx_second);
+  @include Bx($bottom_pos_2plalfa);
+  @include Sx($left_pos_null);
+}
+.zi2plalfa2{
+  @include Lv2($indx_second);
+  @include Bx($bottom_pos_2plalfa2);
+  @include Sx($left_pos_null);
+}
+.zi2plalfaUD{
+  @include Lv2($indx_second);
+  @include Bx($bottom_pos_2plalfaUD2);
+  @include Sx($left_pos_null);
+}
+.zi2plalfaUD2{
+  @include Lv2($indx_second);
+  @include Bx($bottom_pos_2plalfaUD);
+  @include Sx($left_pos_null);
+}
+.zi2cbeta{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_2cbeta);
+  @include Sx($left_pos_2cbeta);
+  @include Trax($tranx_beta);
+}
+.zi2cgamma{
+  @include Lv2($indx_second);
+  @include Tx($top_pos_2cgamma);
+  @include Sx($left_pos_2cgamma);
+  @include Trax($tranx_gamma);
+}

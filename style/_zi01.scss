@@ -1,0 +1,45 @@
+/*Z-Index Class*/
+
+/*lv 0*/
+/*mixin*/
+@mixin Lv0 ($indx_value) {
+  z-index: $indx_value;
+  position: relative;
+}
+
+/*classes*/
+.zi0{
+  @include Lv0($indx_base);
+}
+
+/*lv 1*/
+/*mixin*/
+@mixin Lv1 ($indx_value, $top_value) {
+  z-index: $indx_value;
+  position: absolute;
+  top: $top_value;
+}
+@mixin Dx ($dx_value) {
+  right: $dx_value;
+}
+@mixin Sx ($sx_value) {
+  left: $sx_value;
+}
+
+/*classes*/
+.zi1lav{
+  @include Lv1($indx_first, $top_pos_1lav);
+  @include Dx($right_pos_null);
+}
+.zi1loLog{
+  @include Lv1($indx_second, $top_pos_1lolog);
+  @include Dx($right_pos_1lolog);
+}
+.zi1homeLog{
+  @include Lv1($indx_first, $top_pos_1homelog);
+  @include Sx($left_pos_1homelog);
+}
+.zi1pl{
+  @include Lv1($indx_first, $top_pos_null);
+  @include Sx($left_pos_null);
+}

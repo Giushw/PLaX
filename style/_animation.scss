@@ -1,0 +1,50 @@
+/*Animation Class*/
+
+/*mixin*/
+@mixin SimpleL ($sx_value){
+	left: $sx_value;
+}
+
+/*classes*/
+.left{
+  @include SimpleL($anim_active);
+}
+.leftA{
+  @include SimpleL($anim_active_lav);
+}
+.leftB{
+  @include SimpleL($anim_active_back);
+}
+.leftC{
+  @include SimpleL($anim_active_cont);;
+}
+
+/*Scrollmagic Class*/
+
+
+	.parallaxParent {
+		height: 100vh;
+		overflow: hidden;
+	}
+	.parallaxParent > * {
+		height: 200%;
+		position: relative;
+		top: -100%;
+	}
+
+.panel {
+	height: 100%;
+	width: 100%;
+}
+.panel.green {
+	margin-bottom: 400px
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.turqoise{
+  background-color: cyan;
+}

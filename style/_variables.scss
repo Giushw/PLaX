@@ -1,0 +1,186 @@
+/*Dimension*/
+$heightx: 100%;
+$widthx: 100%;
+$width_view_vw_0: 100vw;
+$width_view_vw_0a: 100vh;
+$width_view_vw_0b: 100vw;
+$width_view_vw_0c: 99vw;
+$width_view_vw_1: 70vw;
+$width_view_vw_2: 34vw;
+$width_view_vw_2log: 40vw;
+$width_view_vw_2logBack: 15vw;
+$width_view_vw_2logLav: 7vw;
+$width_view_vw_2logPla: 10vw;
+$width_view_vw_3: 36.7vw;
+$width_view_vw_4: 39.2vw;
+$width_view_vw_5: 40.7vw;
+$width_view_vw_6: 80vh;
+$width_view_vw_7: 60vh;
+$width_view_vw_pl1: 23vw;
+$width_view_vw_pl2: 10vw;
+
+
+/*Brightness*/
+$bright:200%;
+
+
+/*BackGround Color*/
+$bg_col: #202020;
+
+
+/*Font Color*/
+$font_menu: #202020;
+$font_hover: #27AE60;
+$font_gre: #27AE60;
+$font_drkgry: #202020;
+$font_whc4: #f4f4f4;
+$font_whee: #eeeeee;
+
+
+/*Font Size*/
+$font_menu_s: 35px;
+$font_btn_plax_s: 50px;
+$font_btn_plax_sa: 40px;
+$font_home_des: 37px;
+$font_page_title: 35px;
+$font_page_title_back: 50px;
+$font_cont_txsl: 30px;
+$font_cont_con: 25px;
+
+
+/*Z-Index*/
+$indx_base: 0;
+$indx_first: 1;
+$indx_second: 2;
+$indx_third: 3;
+$indx_forth: 4;
+
+
+/*Position*/
+  /*Top*/
+$top_pos_null: 0;
+$top_pos_1lav: 10vh;
+$top_pos_1lolog: 25vh;
+$top_pos_1homelog: 30vh;
+$top_pos_2lavbeta: 40vh;
+$top_pos_2lavgamma: 40vh;
+$top_pos_2calfa: 16.5vh;
+$top_pos_2backbeta: 1vh;
+$top_pos_2lo: -1vh;
+$top_pos_2cbeta: 35vh;
+$top_pos_2cgamma: 51.7vh;
+
+$top_pos_2pl1: 60vh;
+$top_pos_2pl2: 65vh;
+
+$top_pos_3: 90vh;
+$top_pos_3aalfa: 22vh;
+$top_pos_3abeta: 46vh;
+$top_pos_3agamma: 71vh;
+$top_pos_3b: 5vh;
+$top_pos_3dalfa: 4vh;
+$top_pos_3dalfacont: 4vh;
+$top_pos_3dalfalav: 2vh;
+$top_pos_3dalfaback: 3vh;
+$top_pos_3dalfabacklog: 5vh;
+$top_pos_3dalfacontlog: 2vh;
+$top_pos_3dalfaplalog: 1vh;
+$top_pos_3dalfalav: -3vh;
+$top_pos_3dbeta: 40vh;
+$top_pos_3dbetacont: 22vh;
+$top_pos_3dgamma: 10vh;
+$top_pos_3dgammacont: 40vh;
+$top_pos_3dgammaconta: 41.2vh;
+$top_pos_3ddelta: 4vh;
+$top_pos_3ddeltacont: 60vh;
+$top_pos_3ddeltaconta: 61.2vh;
+$top_pos_3dlambda: 10vh;
+$top_pos_3dlambdacont: 80vh;
+$top_pos_3dlambdaconta: 81.2vh;
+$top_pos_3dsigmacont: 20vh;
+$top_pos_3dsigmaconta: 30vh;
+  /*Right*/
+$right_pos_null: 0;
+$right_pos_1lolog: 30vw;
+$right_pos_2lav: -2vw;
+$right_pos_2lavgamma: 2vw;
+$right_pos_2lavdelta: 37.5vw;
+$right_pos_2loalfa: -1vw;
+$right_pos_3dalfa: -35vw;
+$right_pos_3dalfacont: 5vw;
+$right_pos_3dalfalav: 3vw;
+$right_pos_3dalfaback: -35vw;
+$right_pos_3dalfalav: 1.5vw;
+$right_pos_3dbeta: -35vw;
+$right_pos_3dgamma: -30vw;
+$right_pos_3ddelta: -25vw;
+$right_pos_3dlambda: -20vw;
+$right_pos_3dsigmacont: 30vw;
+$right_pos_3dsigmaconta: 10vw;
+$right_pos_3dthetacont: 5vw;
+  /*Left*/
+$left_pos_null: 0;
+
+$left_pos_1homelog: 20vw;
+$left_pos_2b: 35.5vw;
+$left_pos_2lavbeta: 2vw;
+$left_pos_2calfa: -40vw;
+$left_pos_2backbeta: 45vw;
+$left_pos_2backgamma: 45vw;
+$left_pos_2lo: -1vw;
+$left_pos_2cbeta: -40vw;
+$left_pos_2cgamma: -40vw;
+
+$left_pos_2pl1: 26vw;
+$left_pos_2pl2: 28vw;
+
+$left_pos_3: 40vw;
+$left_pos_3a: 3vw;
+$left_pos_3aalfa: -37vw;
+$left_pos_3abeta: -36vw;
+$left_pos_3agamma: -35vw;
+$left_pos_3b: 22vw;
+$left_pos_3c: 44.5vw;
+$left_pos_3dbetacont: 5vw;
+$left_pos_3dgammacont: 5vw;
+$left_pos_3dgammaconta: 15vw;
+$left_pos_3ddeltacont: 5vw;
+$left_pos_3ddeltaconta: 15vw;
+$left_pos_3dlambdacont: 20vw;
+$left_pos_3dlambdaconta: 37vw;
+  /*Bottom*/
+$bottom_pos_null: 0;
+$bottom_pos_2b: 1vh;
+$bottom_pos_2lavalfa: -1vh;
+$bottom_pos_2lavdelta: 5vh;
+$bottom_pos_2backgamma: 1vh;
+$bottom_pos_2loalfa: -1vh;
+$bottom_pos_2plalfa: -3vh;
+$bottom_pos_2plalfaUD: -26vh;
+$bottom_pos_2plalfa2: -105vh;
+$bottom_pos_2plalfaUD2: -128vh;
+$bottom_pos_3c: -2vh;
+$bottom_pos_3dthetacont: 10vh;
+
+
+/*Transition*/
+$tranx_alfa: 0.3s;
+$tranx_beta: 0.6s;
+$tranx_gamma: 0.9s;
+
+/*Animation*/
+$anim_active: 0;
+$anim_active_lav: 3vw;
+$anim_active_back: 4vw;
+$anim_active_cont: 5vw;
+
+/*Rotation*/
+$rot_lav: -6deg;
+$rot_back: -10deg;
+$rot_cont: -20deg;
+$rot_btn: 180deg;
+
+/*Progress bar*/
+$col_start: #c4c4c4;
+$col_end: #27AE60;
+$col_path: #202020;

@@ -1,0 +1,609 @@
+/*Dimension*/
+/*Brightness*/
+/*BackGround Color*/
+/*Font Color*/
+/*Font Size*/
+/*Z-Index*/
+/*Position*/
+/*Top*/
+/*Right*/
+/*Left*/
+/*Bottom*/
+/*Transition*/
+/*Animation*/
+/*Rotation*/
+/*Progress bar*/
+/*normalization*/
+html,
+body, a {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #202020;
+  font-family: 'Orbitron', sans-serif;
+  text-decoration: none !important; }
+
+a {
+  background-color: transparent; }
+
+/*Canvas Class*/
+#particle-canvas {
+  width: 100%;
+  height: 100%; }
+
+/*Hidden Class*/
+.hid {
+  display: none; }
+
+/*Misc Class*/
+.point {
+  cursor: pointer; }
+
+/*Overflow Class*/
+.overF {
+  overflow: visible; }
+
+/*Fadein Class*/
+/*Dimension Class*/
+/*mixin*/
+/*classes*/
+.objDim0 {
+  width: 100vw; }
+
+.objDim0a {
+  width: 100vh; }
+
+.objDim0b {
+  width: 100vw; }
+
+.objDim0c {
+  width: 99vw; }
+
+.objDim1 {
+  width: 70vw; }
+
+.objDim2 {
+  width: 34vw; }
+
+.objDim2log {
+  width: 40vw; }
+
+.objDim2logBack {
+  width: 15vw; }
+
+.objDim2logLav {
+  width: 7vw; }
+
+.objDim2logPla {
+  width: 10vw; }
+
+.objDim3 {
+  width: 36.7vw; }
+
+.objDim4 {
+  width: 39.2vw; }
+
+.objDim5 {
+  width: 40.7vw; }
+
+.objDim6 {
+  width: 100vw;
+  height: 80vh; }
+
+.objDim7 {
+  height: 60vh; }
+
+.objDim2pl1 {
+  width: 23vw; }
+
+.objDim2pl2 {
+  width: 10vw; }
+
+/*BackGround Dimensio*/
+.bgDim {
+  background-size: 100vw; }
+
+/*Font Class*/
+.menutitle {
+  font-size: 35px;
+  color: #202020; }
+
+.menutitleA {
+  font-size: 35px;
+  color: #202020; }
+
+.menutitle:hover {
+  color: #27AE60; }
+
+.selHov:hover {
+  filter: drop-shadow(8px 8px 10px #27AE60);
+  filter: brightness(200%); }
+
+.btnPlaxFont1 {
+  font-size: 50px;
+  color: #27AE60; }
+
+.btnPlaxFont2 {
+  font-size: 50px;
+  color: #202020; }
+
+.btnPlaxFont2a {
+  font-size: 40px;
+  color: #202020; }
+
+.btnPlaxFont3 {
+  font-size: 40px;
+  color: #f4f4f4; }
+
+.homeDesTxt {
+  font-size: 37px;
+  color: #202020; }
+
+.pageTitle {
+  font-size: 35px;
+  color: #f4f4f4; }
+
+.pageTitleBack {
+  font-size: 50px;
+  color: #f4f4f4; }
+
+.contText {
+  font-size: 30px;
+  color: #eeeeee; }
+
+.contSect {
+  font-size: 30px;
+  color: #27AE60; }
+
+.contCon {
+  font-size: 25px;
+  color: #eeeeee; }
+
+/*Classi allineamaneto testo verticale*/
+ul.verticale {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 600px; }
+
+.verticale li {
+  margin: 0.3em;
+  float: left;
+  display: block; }
+  .verticale li em {
+    display: block;
+    text-align: center;
+    width: 2.2em;
+    font-style: normal; }
+
+/*Z-Index Class*/
+/*lv 0*/
+/*mixin*/
+/*classes*/
+.zi0 {
+  z-index: 0;
+  position: relative; }
+
+/*lv 1*/
+/*mixin*/
+/*classes*/
+.zi1lav {
+  z-index: 1;
+  position: absolute;
+  top: 10vh;
+  right: 0; }
+
+.zi1loLog {
+  z-index: 2;
+  position: absolute;
+  top: 25vh;
+  right: 30vw; }
+
+.zi1homeLog {
+  z-index: 1;
+  position: absolute;
+  top: 30vh;
+  left: 20vw; }
+
+.zi1pl {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/*Z-Index Class*/
+/*lv 2*/
+/*mixin*/
+/*classes*/
+.zi2 {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.zi2a {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.zi2b {
+  z-index: 2;
+  position: absolute;
+  bottom: 1vh;
+  left: 35.5vw; }
+
+.zi2lav {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: -2vw; }
+
+.zi2lavalfa {
+  z-index: 2;
+  position: absolute;
+  bottom: -1vh;
+  left: 0; }
+
+.zi2lavbeta {
+  z-index: 2;
+  position: absolute;
+  top: 40vh;
+  left: 2vw; }
+
+.zi2lavgamma {
+  z-index: 2;
+  position: absolute;
+  top: 40vh;
+  right: 2vw; }
+
+.zi2lavdelta {
+  z-index: 2;
+  position: absolute;
+  bottom: 5vh;
+  right: 37.5vw; }
+
+.zi2calfa {
+  z-index: 2;
+  position: absolute;
+  top: 16.5vh;
+  left: -40vw;
+  transition: 0.3s; }
+
+.zi2back {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.zi2backalfa {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.zi2backbeta {
+  z-index: 2;
+  position: absolute;
+  top: 1vh;
+  left: 45vw; }
+
+.zi2backgamma {
+  z-index: 2;
+  position: absolute;
+  bottom: 1vh;
+  left: 45vw; }
+
+.zi2lo {
+  z-index: 2;
+  position: absolute;
+  top: -1vh;
+  left: -1vw; }
+
+.zi2loalfa {
+  z-index: 2;
+  position: absolute;
+  bottom: -1vh;
+  right: -1vw; }
+
+.zi2pl {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.zi2pl1 {
+  z-index: 2;
+  position: absolute;
+  top: 60vh;
+  left: 26vw; }
+
+.zi2pl2 {
+  z-index: 2;
+  position: absolute;
+  top: 65vh;
+  left: 28vw; }
+
+.zi2plalfa {
+  z-index: 2;
+  position: absolute;
+  bottom: -3vh;
+  left: 0; }
+
+.zi2plalfa2 {
+  z-index: 2;
+  position: absolute;
+  bottom: -105vh;
+  left: 0; }
+
+.zi2plalfaUD {
+  z-index: 2;
+  position: absolute;
+  bottom: -128vh;
+  left: 0; }
+
+.zi2plalfaUD2 {
+  z-index: 2;
+  position: absolute;
+  bottom: -26vh;
+  left: 0; }
+
+.zi2cbeta {
+  z-index: 2;
+  position: absolute;
+  top: 35vh;
+  left: -40vw;
+  transition: 0.6s; }
+
+.zi2cgamma {
+  z-index: 2;
+  position: absolute;
+  top: 51.7vh;
+  left: -40vw;
+  transition: 0.9s; }
+
+/*Z-Index Class*/
+/*lv 3*/
+/*mixin*/
+/*classes*/
+.zi3 {
+  z-index: 3;
+  position: absolute;
+  top: 90vh;
+  left: 40vw; }
+
+.zi3a {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 3vw; }
+
+.zi3aalfa {
+  z-index: 3;
+  position: absolute;
+  top: 22vh;
+  left: -37vw;
+  transition: 0.3s; }
+
+.zi3abeta {
+  z-index: 3;
+  position: absolute;
+  top: 46vh;
+  left: -36vw;
+  transition: 0.6s; }
+
+.zi3agamma {
+  z-index: 3;
+  position: absolute;
+  top: 71vh;
+  left: -35vw;
+  transition: 0.9s; }
+
+.zi3b {
+  z-index: 3;
+  position: absolute;
+  top: 5vh;
+  left: 22vw; }
+
+.zi3c {
+  z-index: 3;
+  position: absolute;
+  bottom: -2vh;
+  left: 44.5vw; }
+
+.zi3dalfa {
+  z-index: 3;
+  position: absolute;
+  top: 4vh;
+  right: -35vw; }
+
+.zi3dalfacont {
+  z-index: 3;
+  position: absolute;
+  top: 4vh;
+  right: 5vw; }
+
+.zi3dalfalav {
+  z-index: 3;
+  position: absolute;
+  top: -3vh;
+  right: 1.5vw; }
+
+.zi3dalfaback {
+  z-index: 3;
+  position: absolute;
+  top: 3vh;
+  right: -35vw; }
+
+.zi3dalfabacklog {
+  z-index: 3;
+  position: absolute;
+  top: 5vh;
+  left: 0; }
+
+.zi3dalfacontlog {
+  z-index: 3;
+  position: absolute;
+  top: 2vh;
+  left: 0; }
+
+.zi3dalfalavlog {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.zi3dalfaplalog {
+  z-index: 3;
+  position: absolute;
+  top: 1vh;
+  left: 0; }
+
+.zi3dalfalav {
+  z-index: 3;
+  position: absolute;
+  top: -3vh;
+  right: 1.5vw; }
+
+.zi3dbeta {
+  z-index: 3;
+  position: absolute;
+  top: 40vh;
+  right: -35vw; }
+
+.zi3dbetacont {
+  z-index: 3;
+  position: absolute;
+  top: 22vh;
+  left: 5vw; }
+
+.zi3dgamma {
+  z-index: 3;
+  position: absolute;
+  top: 10vh;
+  right: -30vw; }
+
+.zi3dgammacont {
+  z-index: 3;
+  position: absolute;
+  top: 40vh;
+  left: 5vw; }
+
+.zi3dgammaconta {
+  z-index: 3;
+  position: absolute;
+  top: 41.2vh;
+  left: 15vw; }
+
+.zi3ddelta {
+  z-index: 3;
+  position: absolute;
+  top: 4vh;
+  right: -25vw; }
+
+.zi3ddeltacont {
+  z-index: 3;
+  position: absolute;
+  top: 60vh;
+  left: 5vw; }
+
+.zi3ddeltaconta {
+  z-index: 3;
+  position: absolute;
+  top: 61.2vh;
+  left: 15vw; }
+
+.zi3dlambda {
+  z-index: 3;
+  position: absolute;
+  top: 10vh;
+  right: -20vw; }
+
+.zi3dlambdacont {
+  z-index: 3;
+  position: absolute;
+  top: 80vh;
+  left: 20vw; }
+
+.zi3dlambdaconta {
+  z-index: 3;
+  position: absolute;
+  top: 81.2vh;
+  left: 37vw; }
+
+.zi3dsigmacont {
+  z-index: 3;
+  position: absolute;
+  top: 20vh;
+  right: 30vw; }
+
+.zi3dsigmaconta {
+  z-index: 3;
+  position: absolute;
+  top: 30vh;
+  right: 10vw; }
+
+.zi3dthetacont {
+  z-index: 3;
+  position: absolute;
+  bottom: 10vh;
+  right: 5vw; }
+
+/*Rotate Class*/
+/*mixin*/
+/*classes*/
+.rotMenu1 {
+  transform: rotate(-6deg); }
+
+.rotMenu2 {
+  transform: rotate(-10deg); }
+
+.rotMenu3 {
+  transform: rotate(-20deg); }
+
+.rotbtn {
+  transition: 0.5s;
+  transform: rotate(180deg); }
+
+/*Animation Class*/
+/*mixin*/
+/*classes*/
+.left {
+  left: 0; }
+
+.leftA {
+  left: 3vw; }
+
+.leftB {
+  left: 4vw; }
+
+.leftC {
+  left: 5vw; }
+
+/*Scrollmagic Class*/
+.parallaxParent {
+  height: 100vh;
+  overflow: hidden; }
+
+.parallaxParent > * {
+  height: 200%;
+  position: relative;
+  top: -100%; }
+
+.panel {
+  height: 100%;
+  width: 100%; }
+
+.panel.green {
+  margin-bottom: 400px; }
+
+.blue {
+  background-color: blue; }
+
+.green {
+  background-color: green; }
+
+.turqoise {
+  background-color: cyan; }
